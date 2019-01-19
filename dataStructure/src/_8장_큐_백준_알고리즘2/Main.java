@@ -62,6 +62,7 @@ public class Main {
 		int paperNum = Integer.parseInt(comArr[0]); 
 		//출력 순서를 찾을 문서의 인덱스 
 		int findIndex = Integer.parseInt(comArr[comArr.length-1]);		
+		
 		if(findIndex >= 0 && findIndex < paperNum) {
 			command2(paperNum,findIndex);			
 		} else return;
